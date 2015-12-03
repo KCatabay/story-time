@@ -1,8 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
-<body>
-Hello!
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>Story Time!</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<header>
+		<h1>Story Time</h1>
+		<h3>'Mad Libs' inspired story generator by <a href="http://github.com/KCatabay">KCat</a></h3>
+	</header>
+	<body>
+		<h2>Your super awesome story is below. Thanks for checking story-time out!</h2>
+		<script type="text/javascript">
+			var noun = prompt('Please type a noun'); 
+			var adjective = prompt('Please type an adjective');
+			var verb = prompt('Please type a verb'); 
+
+			var story = 'There once was a ' 
+			    story += noun
+			    story += ' that liked to '
+			    story += verb
+			    story += ' on a '
+			    story += adjective 
+			    story += ' hill.'
+			    
+			document.write(story);
+
+
+		</script>
+	</body>
+	<footer>
+		hello
+	</footer>
 </html>
