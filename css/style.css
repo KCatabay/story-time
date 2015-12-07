@@ -12,37 +12,65 @@ Header
 ***************/
 
 header {
-	background-color: royalblue;
-	height: 240px;
+	background: linear-gradient(teal, transparent 90%), linear-gradient(0deg, #fff, transparent), 
+	            teal url(../img/header.jpg);
+	background-size: cover;
+	background-zoom: 100%;
+	height: 450px;
 	width: 100%;
 	display: inline-block;
 }
 
 h1 {
-	text-align: center;
-	font-size: 3em;
-	color: white;
 	text-transform: uppercase;
-	border-bottom: 2px solid tomato;
-	width: 50%;
-	margin: 50px auto 25px auto;
-	padding-bottom: 5px;
+	text-shadow: .5px .5px #efefef;
+	text-align: center;
+	font-size: 4em;
+	color: white;
+	margin-top: 100px;
 }
 
-h3 {
+h5 {
 	text-align: center;
 	color: white;
 }
 
+h2 {
+	color: teal;
+	text-align: center;
+	margin: 100px auto 100px;
+	max-width: 40%;
+	line-height: 1.5em;
+	border-bottom: 2px solid darkorange;
+	padding-bottom: 50px;
+}
 
+/**************
+Story
+***************/
 
+div {
+	width: 100%;
+	background-color: #EFEFEF;
+}
+
+#inner {
+	width: 60%;
+	text-align: center;
+	color: teal;
+	padding: 100px 0px;
+	margin-top: 50px;
+	font-size: 1.5em;
+	margin: 0 auto;
+	line-height: 1.5em;
+	}
 
 /**************
 Footer
 ***************/
 
 footer {
-	background-color: tomato;
-	height: 5%;
+	background-color: teal;
+	height: 2%;
 	width: 100%;
 }
