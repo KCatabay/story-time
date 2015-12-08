@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
+		
 		<title>Story Time!</title>
+		<meta name="viewport" content="width-divice-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Lobster+Two' rel='stylesheet' type='text/css'>
 	</head>
 	<header>
 		<h1>Story Time</h1>
@@ -17,9 +21,11 @@
 			<div id="inner">
 				<script type="text/javascript">
 					var noun = prompt('Please type a noun'); 
-					var secondNoun = prompt('Please type a second noun')
+					var secondNoun = prompt('Please type a second noun');
 					var adjective = prompt('Please type an adjective');
+					var secondAdjective = prompt('Please type a second adjective');
 					var verb = prompt('Please type a verb'); 
+					var secondVerb = prompt('Please type a second verb');
 
 					var story = 'There once was a ' 
 					    story += noun
@@ -35,15 +41,30 @@
 					    story += ' on a different hill.'
 					    story += ' So the '
 					    story += noun 
-					    story += ''
+					    story += ' hopped on his '
+					    story += secondNoun
+					    story += ' and began to search for another hill. '
+					    story += ' After a long '
+					    story += secondVerb 
+					    story += ', the '
+					    story += noun 
+					    story += ' stumbled upon a '
+					    story += secondAdjective
+					    story += ' hill.  He got off of his '
+					    story += secondNoun 
+					    story += ' and walked to the top of the hill. '
+					    story += ' Finally, after a long journey, the '
+					    story += noun 
+					    story += ' got to '
+					    story += verb 
+					    story += ' on the new hill.'
 					    
 					document.write(story);
 				</script>
 			</div>
 		</div>
 	</body>
-	<-->
 	<footer>
-		kyle
+		<a href="https://github.com/KCatabay" target="_blank"><i class="fa fa-github-alt fa-2x" ></i></a>
 	</footer>
 </html>
